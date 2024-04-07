@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aitsam/openeb/pipeline/cpp_samples/metavision_evt2_raw_file_decoder/metavision_evt2_raw_file_decoder.cpp
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+cstdint
+-
+
