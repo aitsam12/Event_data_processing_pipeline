@@ -1,6 +1,8 @@
 # Event Data Processing Pipeline
 Welcome to the official repository of the Event Data Processing Pipeline! This hub is dedicated to converting event data from one format to another, streamlining your data processing tasks. Whether you're dealing with a single file or a batch, this repository provides the necessary tools and access to a wealth of open-source datasets.
 
+![Alt text](summary.png)
+
 # EventConversion_pipeline
 The EventConversion_pipeline folder is equipped with Python scripts specifically designed for event data conversion between various formats. We are actively updating and optimizing the conversion files.
 
@@ -12,10 +14,18 @@ Once the paths are specified, the script automatically processes the data, ensur
 # Datasets
 Dive into our collection of datasets in multiple formats, all converted using our robust processing pipeline. These datasets are available for your perusal and use through the Google Drive link provided below.
 
-Google Drive Datasets Link
+Google Drive Datasets Link: https://drive.google.com/drive/folders/1kOeizXQvTG6lxz6_OLGBRMWnGCy9j_7F?usp=sharing
 
-Selected Datasets Table
-table
+| Index | Dataset       | Recognition | Data Format | # Samples | Size   | License    |
+|-------|---------------|-------------|-------------|-----------|--------|------------|
+| 1     | NMNIST        | Digit       | Binary      | 70,000    | 1.2 GB | CC 4.0     |
+| 2     | N-Caltech101  | Object      | Binary      | 9,146     | 4.0 GB | CC 4.0     |
+| 3     | Bullying10k   | Action      | Binary      | 10,000    | 47.5 GB| CC 4.0     |
+| 4     | MNIST-DVS     | Digit       | AEDAT       | 60,000    | 3.72 GB| CC 4.0     |
+| 5     | CIFAR10-DVS   | Image       | AEDAT       | 10,000    | 8.4 GB | CC 4.0     |
+| 6     | DVS128Gesture | Gesture     | AEDAT       | 1,342     | 2.9 GB | open-source|
+| 7     | EB-HandGesture| Gesture     | RAW (EVT)   | 9,000     | 58.7 GB| CC 4.0     |
+
 
 ## Acknowledgment:
 This initiative is supported by Marie Sklodowska-Curie Action Horizon 2020 under Grant Agreement No. 955778 for the 'Personalized Robotics as Service Oriented Applications (PERSEO)' project. Committed to open access, we've licensed the Accepted Manuscript version arising from this submission under Creative Commons Attribution (CC BY).
