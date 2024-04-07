@@ -21,6 +21,20 @@ Once the paths are specified, the script automatically processes the data, ensur
 | This Work  | ✔   | ✔       | ✔         | x       | ✔   | ✔   | ✔     | ✔     |
 
 
+#### Data handling capabilities of the proposed pipeline:
+
+|            | Aedat2 | Aedat3.1 | Bin | Npz | Csv | EVT2 | EVT3 |
+|------------|--------|----------|-----|-----|-----|------|------|
+| Aedat 2    | -      | x        | ✔   | ✔   | ✔   | ✔    | ✔    |
+| Aedat 3.1  | x      | -        | ✔   | ✔   | ✔   | ✔    | ✔    |
+| Bin        | ✔      | ✔        | -   | ✔   | ✔   | ✔    | ✔    |
+| Npz        | ✔      | ✔        | ✔   | -   | ✔   | ✔    | ✔    |
+| Csv        | ✔      | ✔        | ✔   | ✔   | -   | ✔    | ✔    |
+| EVT 2      | ✔      | ✔        | ✔   | ✔   | ✔   | -    | x    |
+| EVT 3      | ✔      | ✔        | ✔   | ✔   | ✔   | x    | -    |
+
+
+
 # Datasets
 Dive into our collection of datasets in multiple formats, all converted using our robust processing pipeline. These datasets are available for your perusal and use through the Google Drive link provided below.
 
