@@ -7,7 +7,7 @@ Welcome to the official repository of the Event Data Processing Pipeline! This h
 The EventConversion_pipeline folder is equipped with Python scripts specifically designed for event data conversion between various formats. We are actively updating and optimizing the conversion files.
 
 ## How to Use:
-To utilize a conversion script, you need to provide the paths for the input file and the desired output file.
+To utilize a conversion script, you need to provide the paths for the input file and the desired output file. For EVT2 and EVT3 encoding, make sure to compile cpp_sample by using the `compile_cpp_with_python.py` script.
 Once the paths are specified, the script automatically processes the data, ensuring the converted file is saved to your designated location.
 
 #### Comparison with existing solutions:
