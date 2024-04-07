@@ -2,7 +2,7 @@
 Welcome to the official repository of the Event Data Processing Pipeline! This hub is dedicated to converting event data from one format to another, streamlining your data processing tasks. Whether you're dealing with a single file or a batch, this repository provides the necessary tools and access to a wealth of open-source datasets.
 
 # EventConversion_pipeline
-The EventConversion_pipeline folder is equipped with Python scripts specifically designed for event data conversion between various formats.
+The EventConversion_pipeline folder is equipped with Python scripts specifically designed for event data conversion between various formats. We are actively updating and optimizing the conversion files.
 
 ## How to Use:
 To utilize a conversion script, you need to provide the paths for the input file and the desired output file.
@@ -20,14 +20,54 @@ table
 ## Acknowledgment:
 This initiative is supported by Marie Sklodowska-Curie Action Horizon 2020 under Grant Agreement No. 955778 for the 'Personalized Robotics as Service Oriented Applications (PERSEO)' project. Committed to open access, we've licensed the Accepted Manuscript version arising from this submission under Creative Commons Attribution (CC BY).
 
-Our heartfelt thanks go to the OpenEB and Spikingjelly teams for their invaluable open-source frameworks, which played a pivotal role in the development of our pipeline. When utilizing these datasets or the pipeline in your research, please cite both the original and the converted dataset to acknowledge the creators' effort and contribution.
+Our heartfelt thanks go to the OpenEB and Spikingjelly teams for their invaluable open-source frameworks, which played a pivotal role in the development of our pipeline. When utilizing these datasets or the pipeline in your research, please cite both the original and the converted dataset to acknowledge the creators' efforts and contribution.
 
 ## Citation
 If you are utilizing this work or any part thereof, please consider citing the following references:
 
-Prophesee OpenEB Reference:
-Provide the citation details or a BibTeX entry for Prophesee OpenEB.
-Spikingjelly Reference:
-Provide the citation details or a BibTeX entry for Spikingjelly.
-EB-handgesture Reference:
-Provide the citation details or a BibTeX entry for EB-handgesture.
+#### Prophesee OpenEB Reference:
+@misc{openebcite,
+   author = {OpenEB and Prophesee},
+   title = {Training an EB classification model — Metavision SDK Docs 4.5.1 documentation},
+   url = {$https://docs.prophesee.ai/stable/tutorials/ml/training/train_classifier.html$},
+}
+
+#### Spikingjelly Reference:
+@article{
+spkjly,
+author = {Wei Fang  and Yanqi Chen  and Jianhao Ding  and Zhaofei Yu  and Timothée Masquelier  and Ding Chen  and Liwei Huang  and Huihui Zhou  and Guoqi Li  and Yonghong Tian },
+title = {SpikingJelly: An open-source machine learning infrastructure platform for spike-based intelligence},
+journal = {Science Advances},
+volume = {9},
+number = {40},
+pages = {eadi1480},
+year = {2023},
+doi = {10.1126/sciadv.adi1480},
+URL = {https://www.science.org/doi/abs/10.1126/sciadv.adi1480},
+eprint = {https://www.science.org/doi/pdf/10.1126/sciadv.adi1480}}
+
+
+#### Neuromorphic Computing for Interactive Robotics: Systematic Review
+@article{aitsamdvs,
+author = {Muhammad Aitsam and Sergio Davies and Alessandro Di Nuovo},
+doi = {10.1109/ACCESS.2022.3219440},
+issn = {21693536},
+journal = {IEEE Access},
+pages = {122261-122279},
+publisher = {Institute of Electrical and Electronics Engineers Inc.},
+title = {Neuromorphic Computing for Interactive Robotics: A Systematic Review},
+volume = {10},
+year = {2022},
+}
+
+#### EB-handgesture Reference:
+@INPROCEEDINGS{Aitsam,
+AUTHOR="Muhammad Aitsam and Sergio Davies and Alessandro {Di Nuovo}",
+TITLE="Event {Camera-Based} {Real-Time} Gesture Recognition for Improved Robotic
+Guidance",
+BOOKTITLE="2024 International Joint Conference on Neural Networks (IJCNN) (IJCNN 2024)",
+ADDRESS="Yokohama, Japan",
+PAGES="7.33",
+DAYS=28,
+MONTH=jun,
+YEAR=2024,}
